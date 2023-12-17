@@ -186,7 +186,7 @@ ul {
   margin-block: 0.5em;
 }
 
-.language-section > ul {
+/* .language-section > ul {
   display: flex;
 }
 
@@ -200,7 +200,7 @@ ul {
 
 .language-section > ul > li + li {
   border-inline-start: 1px solid var(--gray-300);
-}
+} */
 
 .company-header {
   display: grid;
@@ -230,7 +230,7 @@ ul {
 }
 
 .project {
-  margin-block: 1.5rem;
+  margin-block: 1rem;
 }
 
 .project-header {
@@ -241,7 +241,7 @@ ul {
   font-size: 13px;
   color: var(--gray-500);
 }
-
+/* 
 .education-header {
   display: flex;
   align-items: center;
@@ -255,4 +255,10 @@ ul {
 .education-score {
   border-inline-start: 1px solid var(--gray-300);
   padding-inline: 1rem;
+} */
+
+.education-yop {
+  display: block;
+  font-size: 14px;
+  color: var(--gray-500);
 }
